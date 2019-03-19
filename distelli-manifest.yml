@@ -1,4 +1,4 @@
-'opskernel/example-go':
+opskernel/example-go:
   # Pipeline Manifest example
   # this example assumes the build and deploy servers are:
   # The same architecture (32 vs 64 bit)
@@ -13,10 +13,10 @@
     - sudo apt-get -y update
     - echo "-Installing GoLang-"
     - sudo apt-get -y install golang
-    - echo “--Building--”
+    - echo "--Building--"
     - cd src
     - go build -o ../bin/server
-    - echo “--Testing--”
+    - echo "--Testing--"
     - go test
 
   PkgInclude:
