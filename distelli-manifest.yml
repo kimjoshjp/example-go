@@ -1,4 +1,4 @@
-  #<-username->/<-app name->:
+  opskernel/example-go:
   # Pipeline Manifest example
   # this example assumes the build and deploy servers are:
   # The same architecture (32 vs 64 bit)
