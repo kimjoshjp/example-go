@@ -10,7 +10,7 @@ opskernel/example-go:
     - echo "–--Beginning PreRelease---"
     - echo "--Installing build dependencies--"
     - echo "-Updating apt-get-"
-  - sudo apt-get -y update
+  # - sudo apt-get -y update
     - echo "-Installing GoLang-"
     - sudo apt-get -y install golang
     - echo "--Building--"
