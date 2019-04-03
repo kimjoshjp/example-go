@@ -12,7 +12,7 @@ opskernel/example-go:
     - echo "-Updating apt-get-"
     - sudo apt-get -y update
     - echo "-Installing GoLang-"
-    - sudo apt-get -y install golang
+  # - sudo apt-get -y install golang
     - echo "--Building--"
     - cd src
     - go build -o ../bin/server
