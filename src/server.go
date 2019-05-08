@@ -8,7 +8,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
     w.Header().Set("content-type", "text/html")
-    fmt.Fprintf(w, "<h2>This is PuppetPipe line with Go app Deployment!</h2>")
+    fmt.Fprintf(w, "<h2>Hello Brisbane, This is PuppetPipe line with Go app Deployment!</h2>")
 }
 
 func main() {
